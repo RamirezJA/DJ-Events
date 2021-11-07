@@ -17,7 +17,6 @@ export default function Layout({ title, keywords, description, children }) {
       </Head>
       <Header />
       {router.pathname === '/' && <Showcase />}
-      <Showcase />
       <div className={styles.container}>{children}</div>
       <Footer />
     </div>
